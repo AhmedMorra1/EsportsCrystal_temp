@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>359775106440-9a44qni0393ddlnt5tpge2hfssfagg7r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.359775106440-9a44qni0393ddlnt5tpge2hfssfagg7r</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>359775106440-6m2ndnn5ouurf9q1n6ukid7enuccln7v.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCDZ8qeF0Em1mWQE25ZCTeidX3i0ZvGaSg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>359775106440</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.esportscrystal.esportsCrystal</string>
+	<key>PROJECT_ID</key>
+	<string>esports-crystal-44285</string>
+	<key>STORAGE_BUCKET</key>
+	<string>esports-crystal-44285.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:359775106440:ios:adf51388bc50d6c167763d</string>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "359775106440",
+    "project_id": "esports-crystal-44285",
+    "storage_bucket": "esports-crystal-44285.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359775106440:android:2a5a31893c3518f667763d",
+        "android_client_info": {
+          "package_name": "com.esportscrystal.esportscrystal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359775106440-6m2ndnn5ouurf9q1n6ukid7enuccln7v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esportscrystal.esportscrystal",
+            "certificate_hash": "f2f27cce5d18d1d9829e93476460e7760466cf15"
+          }
+        },
+        {
+          "client_id": "359775106440-tqe2fpsvqb6q9i83giv7t7iqc6m7tjva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbMPxoX5_yKNco6saETrPROO1aWfazBgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359775106440-tqe2fpsvqb6q9i83giv7t7iqc6m7tjva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

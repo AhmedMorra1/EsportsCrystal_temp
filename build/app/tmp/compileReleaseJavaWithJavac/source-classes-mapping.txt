@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/esportscrystal/esportscrystal/BuildConfig.java
+ com.esportscrystal.esportscrystal.BuildConfig

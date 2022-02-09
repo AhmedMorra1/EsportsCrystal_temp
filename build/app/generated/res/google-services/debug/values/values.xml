@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">359775106440-tqe2fpsvqb6q9i83giv7t7iqc6m7tjva.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">359775106440</string>
+    <string name="google_api_key" translatable="false">AIzaSyAbMPxoX5_yKNco6saETrPROO1aWfazBgs</string>
+    <string name="google_app_id" translatable="false">1:359775106440:android:2a5a31893c3518f667763d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAbMPxoX5_yKNco6saETrPROO1aWfazBgs</string>
+    <string name="google_storage_bucket" translatable="false">esports-crystal-44285.appspot.com</string>
+    <string name="project_id" translatable="false">esports-crystal-44285</string>
+</resources>

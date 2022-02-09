@@ -1,0 +1,479 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.esportscrystal.esportscrystal"
+4    android:versionCode="9"
+5    android:versionName="1.0.8" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:3:4-66
+14-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:3:21-63
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+17-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+18-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-63
+19    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+19-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+19-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+20    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+20-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-79
+20-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Android package visibility setting -->
+21-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:22-107
+22    <queries>
+22-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:27:5-43:15
+23
+24        <!-- For browser content -->
+25        <intent>
+25-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:30:9-36:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:31:13-65
+26-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:31:21-62
+27
+28            <category android:name="android.intent.category.BROWSABLE" />
+28-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:33:13-74
+28-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:33:23-71
+29
+30            <data android:scheme="https" />
+30-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:35:13-44
+30-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:35:19-41
+31        </intent>
+32        <!-- End of browser content -->
+33        <!-- For CustomTabsService -->
+34        <intent>
+34-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:39:9-41:18
+35            <action android:name="android.support.customtabs.action.CustomTabsService" />
+35-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:40:13-90
+35-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:40:21-87
+36        </intent>
+37        <!-- End of CustomTabsService -->
+38    </queries>
+39
+40    <application
+40-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:4:4-44:19
+41        android:name="androidx.multidex.MultiDexApplication"
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.6.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/launcher_icon"
+44-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:6:9-45
+45        android:label="Crystal"
+45-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:5:9-32
+46        android:usesCleartextTraffic="true" >
+46-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/debug/AndroidManifest.xml:7:18-53
+47
+48        <!-- possibly other elements -->
+49        <activity
+49-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:7:9-35:20
+50            android:name="com.esportscrystal.esportscrystal.MainActivity"
+50-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:8:13-41
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+51-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:11:13-163
+52            android:hardwareAccelerated="true"
+52-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:12:13-47
+53            android:launchMode="singleTop"
+53-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:9:13-43
+54            android:theme="@style/LaunchTheme"
+54-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:10:13-47
+55            android:windowSoftInputMode="adjustResize" >
+55-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:13:13-55
+56
+57            <!--
+58                 Specifies an Android theme to apply to this Activity as soon as
+59                 the Android process has started. This theme is visible to the user
+60                 while the Flutter UI initializes. After that, this theme continues
+61                 to determine the Window background behind the Flutter UI.
+62            -->
+63            <meta-data
+63-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:18:13-21:17
+64                android:name="io.flutter.embedding.android.NormalTheme"
+64-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:19:15-70
+65                android:resource="@style/NormalTheme" />
+65-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:20:15-52
+66            <!--
+67                 Displays an Android View that continues showing the launch screen
+68                 Drawable until Flutter paints its first frame, then this splash
+69                 screen fades out. A splash screen is useful to avoid any visual
+70                 gap between the end of Android's launch screen and the painting of
+71                 Flutter's first frame.
+72            -->
+73            <meta-data
+73-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:27:13-30:17
+74                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+74-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:28:15-79
+75                android:resource="@drawable/launch_background" />
+75-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:29:15-61
+76
+77            <intent-filter>
+77-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:31:13-34:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:32:17-68
+78-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:32:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:33:17-76
+80-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:33:27-74
+81            </intent-filter>
+82        </activity>
+83        <!--
+84 Don't delete the meta-data below.
+85             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+86        -->
+87        <meta-data
+87-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:38:9-40:33
+88            android:name="flutterEmbedding"
+88-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:39:13-44
+89            android:value="2" />
+89-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:40:13-30
+90        <meta-data
+90-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:41:8-43:68
+91            android:name="com.google.android.gms.ads.APPLICATION_ID"
+91-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:42:12-68
+92            android:value="ca-app-pub-9538373288427581~1768775105" />
+92-->/Users/ahmedmorra/StudioProjects/esportscrystal/android/app/src/main/AndroidManifest.xml:43:12-66
+93        <meta-data
+93-->[:google_mobile_ads] /Users/ahmedmorra/StudioProjects/esportscrystal/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-12:36
+94            android:name="io.flutter.embedded_views_preview"
+94-->[:google_mobile_ads] /Users/ahmedmorra/StudioProjects/esportscrystal/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-61
+95            android:value="true" />
+95-->[:google_mobile_ads] /Users/ahmedmorra/StudioProjects/esportscrystal/build/google_mobile_ads/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-33
+96
+97        <activity
+97-->[:url_launcher] /Users/ahmedmorra/StudioProjects/esportscrystal/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+98            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+98-->[:url_launcher] /Users/ahmedmorra/StudioProjects/esportscrystal/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+99            android:exported="false"
+99-->[:url_launcher] /Users/ahmedmorra/StudioProjects/esportscrystal/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+100            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+100-->[:url_launcher] /Users/ahmedmorra/StudioProjects/esportscrystal/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+101
+102        <service
+102-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+103            android:name="com.google.firebase.components.ComponentDiscoveryService"
+103-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
+104            android:directBootAware="true"
+104-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+105            android:exported="false" >
+105-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/d8b5451fc82c883313b73938aa29c281/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:29:13-37
+106            <meta-data
+106-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+107                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+107-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+109            <meta-data
+109-->[:firebase_core] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+110                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+110-->[:firebase_core] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[:firebase_core] /Users/ahmedmorra/StudioProjects/esportscrystal/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+112            <meta-data
+112-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/d8b5451fc82c883313b73938aa29c281/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:30:13-32:85
+113                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+113-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/d8b5451fc82c883313b73938aa29c281/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:31:17-139
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/d8b5451fc82c883313b73938aa29c281/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:32:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-installations:17.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2b663374f2a3beef67e4fc09532fc190/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+116                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+116-->[com.google.firebase:firebase-installations:17.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2b663374f2a3beef67e4fc09532fc190/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-installations:17.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2b663374f2a3beef67e4fc09532fc190/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+118        </service>
+119
+120        <receiver
+120-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-15:40
+121            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+121-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-97
+122            android:exported="false" />
+122-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+123        <receiver
+123-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-25:20
+124            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+124-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-101
+125            android:exported="false" >
+125-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+126            <intent-filter>
+126-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-24:29
+127                <action android:name="android.intent.action.BOOT_COMPLETED" />
+127-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+127-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+128                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+128-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-84
+128-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-81
+129                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+129-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-82
+129-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:22:25-79
+130                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+130-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:17-82
+130-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:23:25-79
+131            </intent-filter>
+132        </receiver>
+133
+134        <provider
+134-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+135            android:name="com.google.firebase.provider.FirebaseInitProvider"
+135-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+136            android:authorities="com.esportscrystal.esportscrystal.firebaseinitprovider"
+136-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+138            android:exported="false"
+138-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+139            android:initOrder="100" />
+139-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+140
+141        <receiver
+141-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:29:9-33:20
+142            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+142-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:30:13-85
+143            android:enabled="true"
+143-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:31:13-35
+144            android:exported="false" >
+144-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:32:13-37
+145        </receiver>
+146
+147        <service
+147-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:35:9-38:40
+148            android:name="com.google.android.gms.measurement.AppMeasurementService"
+148-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:36:13-84
+149            android:enabled="true"
+149-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:37:13-35
+150            android:exported="false" />
+150-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:38:13-37
+151        <service
+151-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:39:9-43:72
+152            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+152-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:40:13-87
+153            android:enabled="true"
+153-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:41:13-35
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:42:13-37
+155            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+155-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8450057caa35aac30a045729c438a3d4/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:43:13-69
+156        <activity
+156-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:48:9-52:64
+157            android:name="com.google.android.gms.ads.AdActivity"
+157-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:49:13-65
+158            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+158-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:50:13-122
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:51:13-37
+160            android:theme="@android:style/Theme.Translucent" />
+160-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:52:13-61
+161
+162        <provider
+162-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:54:9-58:39
+163            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+163-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:55:13-76
+164            android:authorities="com.esportscrystal.esportscrystal.mobileadsinitprovider"
+164-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:56:13-73
+165            android:exported="false"
+165-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:57:13-37
+166            android:initOrder="100" />
+166-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:58:13-36
+167
+168        <service
+168-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:60:9-63:40
+169            android:name="com.google.android.gms.ads.AdService"
+169-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:61:13-64
+170            android:enabled="true"
+170-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:62:13-35
+171            android:exported="false" />
+171-->[com.google.android.gms:play-services-ads-lite:20.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2fe757ca92b45b692b8e865c62eee325/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:63:13-37
+172
+173        <meta-data
+173-->[com.google.android.gms:play-services-basement:17.6.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/1ee966a2dd821da50c07ed95291809d5/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+174            android:name="com.google.android.gms.version"
+174-->[com.google.android.gms:play-services-basement:17.6.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/1ee966a2dd821da50c07ed95291809d5/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+175            android:value="@integer/google_play_services_version" />
+175-->[com.google.android.gms:play-services-basement:17.6.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/1ee966a2dd821da50c07ed95291809d5/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+176
+177        <provider
+177-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:30:9-36:35
+178            android:name="androidx.work.impl.WorkManagerInitializer"
+178-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:31:13-69
+179            android:authorities="com.esportscrystal.esportscrystal.workmanager-init"
+179-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:32:13-68
+180            android:directBootAware="false"
+180-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:33:13-44
+181            android:exported="false"
+181-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:34:13-37
+182            android:multiprocess="true" />
+182-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:35:13-40
+183
+184        <service
+184-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:38:9-43:35
+185            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+185-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:39:13-88
+186            android:directBootAware="false"
+186-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:40:13-44
+187            android:enabled="@bool/enable_system_alarm_service_default"
+187-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:41:13-72
+188            android:exported="false" />
+188-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:42:13-37
+189        <service
+189-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:44:9-50:35
+190            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+190-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:45:13-84
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:46:13-44
+192            android:enabled="@bool/enable_system_job_service_default"
+192-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:47:13-70
+193            android:exported="true"
+193-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:48:13-36
+194            android:permission="android.permission.BIND_JOB_SERVICE" />
+194-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:49:13-69
+195
+196        <receiver
+196-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:52:9-57:35
+197            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+197-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:53:13-88
+198            android:directBootAware="false"
+198-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:54:13-44
+199            android:enabled="true"
+199-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:55:13-35
+200            android:exported="false" />
+200-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:56:13-37
+201        <receiver
+201-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:58:9-68:20
+202            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+202-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:59:13-106
+203            android:directBootAware="false"
+203-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:60:13-44
+204            android:enabled="false"
+204-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:61:13-36
+205            android:exported="false" >
+205-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:62:13-37
+206            <intent-filter>
+206-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:64:13-67:29
+207                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+207-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:65:17-87
+207-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:65:25-84
+208                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+208-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:66:17-90
+208-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:66:25-87
+209            </intent-filter>
+210        </receiver>
+211        <receiver
+211-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:69:9-79:20
+212            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+212-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:70:13-104
+213            android:directBootAware="false"
+213-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:71:13-44
+214            android:enabled="false"
+214-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:72:13-36
+215            android:exported="false" >
+215-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:73:13-37
+216            <intent-filter>
+216-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:75:13-78:29
+217                <action android:name="android.intent.action.BATTERY_OKAY" />
+217-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:76:17-77
+217-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:76:25-74
+218                <action android:name="android.intent.action.BATTERY_LOW" />
+218-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:77:17-76
+218-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:77:25-73
+219            </intent-filter>
+220        </receiver>
+221        <receiver
+221-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:80:9-90:20
+222            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+222-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:81:13-104
+223            android:directBootAware="false"
+223-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:82:13-44
+224            android:enabled="false"
+224-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:83:13-36
+225            android:exported="false" >
+225-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:84:13-37
+226            <intent-filter>
+226-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:86:13-89:29
+227                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+227-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:87:17-83
+227-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:87:25-80
+228                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+228-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:88:17-82
+228-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:88:25-79
+229            </intent-filter>
+230        </receiver>
+231        <receiver
+231-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:91:9-100:20
+232            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+232-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:92:13-103
+233            android:directBootAware="false"
+233-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:93:13-44
+234            android:enabled="false"
+234-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:94:13-36
+235            android:exported="false" >
+235-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:95:13-37
+236            <intent-filter>
+236-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:97:13-99:29
+237                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+237-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+237-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+238            </intent-filter>
+239        </receiver>
+240        <receiver
+240-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:101:9-112:20
+241            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+241-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:102:13-88
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:103:13-44
+243            android:enabled="false"
+243-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:104:13-36
+244            android:exported="false" >
+244-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:105:13-37
+245            <intent-filter>
+245-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:107:13-111:29
+246                <action android:name="android.intent.action.BOOT_COMPLETED" />
+246-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-79
+246-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/esportscrystal/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-76
+247                <action android:name="android.intent.action.TIME_SET" />
+247-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:109:17-73
+247-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:109:25-70
+248                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+248-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:110:17-81
+248-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:110:25-78
+249            </intent-filter>
+250        </receiver>
+251        <receiver
+251-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:113:9-122:20
+252            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+252-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:114:13-99
+253            android:directBootAware="false"
+253-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:115:13-44
+254            android:enabled="@bool/enable_system_alarm_service_default"
+254-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:116:13-72
+255            android:exported="false" >
+255-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:117:13-37
+256            <intent-filter>
+256-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:119:13-121:29
+257                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+257-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:120:17-98
+257-->[androidx.work:work-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/a5fbbe0fea26ba7d27874181c8ef5a20/work-runtime-2.1.0/AndroidManifest.xml:120:25-95
+258            </intent-filter>
+259        </receiver>
+260
+261        <service
+261-->[androidx.room:room-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/46581a10b229762f0704b1b7f5e2ebd7/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+262            android:name="androidx.room.MultiInstanceInvalidationService"
+262-->[androidx.room:room-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/46581a10b229762f0704b1b7f5e2ebd7/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+263            android:exported="false" />
+263-->[androidx.room:room-runtime:2.1.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/46581a10b229762f0704b1b7f5e2ebd7/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+264    </application>
+265
+266</manifest>
